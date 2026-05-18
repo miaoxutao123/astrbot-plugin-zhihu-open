@@ -3,11 +3,10 @@ display_name: Zhihu Open
 desc: 知乎开放平台插件，提供知乎搜索、全网搜索、热榜与直答 LLM Tools
 version: v0.1.0
 author: OpenAI
-repo: ""
+repo: https://github.com/miaoxutao123/astrbot-plugin-zhihu-open
 keywords:
   - zhihu
   - search
   - llm tool
   - hot list
   - zhida
-
