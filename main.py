@@ -154,7 +154,7 @@ class ZhihuOpenClient:
 
 @register(
     PLUGIN_NAME,
-    "OpenAI",
+    "miaoxutao123 and OpenAI Codex",
     "知乎开放平台插件，提供知乎搜索、全网搜索、热榜与直答 LLM Tools",
     "0.1.0",
 )
