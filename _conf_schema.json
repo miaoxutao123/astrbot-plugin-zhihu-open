@@ -1,0 +1,47 @@
+{
+  "access_secret": {
+    "type": "string",
+    "description": "知乎开放平台 Access Secret",
+    "hint": "在 https://developer.zhihu.com/profile 获取，用于 Authorization: Bearer <secret>",
+    "default": ""
+  },
+  "proxy_url": {
+    "type": "string",
+    "description": "HTTP 代理地址",
+    "hint": "例如: http://127.0.0.1:7890 或 socks5://127.0.0.1:1080，留空则不使用代理",
+    "default": ""
+  },
+  "timeout_seconds": {
+    "type": "int",
+    "description": "请求超时时间（秒）",
+    "default": 30
+  },
+  "default_search_count": {
+    "type": "int",
+    "description": "默认搜索条数",
+    "hint": "用于知乎搜索/全网搜索默认返回数量",
+    "default": 5
+  },
+  "default_hot_limit": {
+    "type": "int",
+    "description": "默认热榜条数",
+    "default": 10
+  },
+  "default_zhida_model": {
+    "type": "string",
+    "description": "默认直答模型",
+    "hint": "可选: zhida-fast-1p5, zhida-thinking-1p5, zhida-agent",
+    "default": "zhida-fast-1p5",
+    "options": [
+      "zhida-fast-1p5",
+      "zhida-thinking-1p5",
+      "zhida-agent"
+    ]
+  },
+  "show_reasoning": {
+    "type": "bool",
+    "description": "直答结果中是否展示 reasoning_content",
+    "default": false
+  }
+}
+
